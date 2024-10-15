@@ -1,0 +1,176 @@
+*{
+padding: 0;
+margin: 0;
+}
+header{
+    background: cornflowerblue;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+header ul{
+    position: absolute;
+    right: 4vw;
+    top: 0;
+    line-height: 80px;
+}
+h1{
+    position: absolute;
+    color: azure;
+    left: 200px;
+    top: 0;
+    line-height: 80px;
+}
+header a{
+    color: azure;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: black;
+}
+header li{
+    display: inline;
+    margin: 3vw;
+}
+header blockquote{
+    color: lightyellow;
+    margin: 0 60px;
+}
+.news{
+    color: blueviolet;
+    font-family: 幼圆;
+    height: 500px;
+    background-image: url("images/blue_archive/prana.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: top;
+    margin-top: 80px;
+}
+.news h2{
+    font-size: 50px;
+    text-align: right;
+}
+.news p{
+    font-size: 30px;
+    font-family: 黑体;
+    color: darkblue;
+    margin: 80px 6vw;
+    text-align: right;
+}
+.news a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    border: lightyellow 2px solid;
+    padding: 5px 15px;
+    margin: 0 30px 0 0;
+}
+.introduction{
+    background: lightskyblue;
+    color: azure;
+    padding: 20px;
+    height: 40px;
+    margin-top: 20px;
+}
+.introduction li{
+    display: inline;
+    margin-left: 10px;
+}
+.introduction a{
+    font-family: 幼圆;
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+}
+.introduction ul{
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+main{
+    background: antiquewhite;
+}
+.posts {
+    display: flex;
+    background: antiquewhite;
+    height: 400px;
+}
+main h3{
+    font-family: 幼圆;
+    margin: 5px 10px;
+}
+.posts div{
+    width: 250px;
+    margin: 20px 10px;
+}
+.posts img{
+    width: 180px ;
+    height: auto;
+}
+.posts h5{
+    font-family: 細明體-ExtB;
+}
+footer{
+    background: dimgray;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-family: 方正舒体;
+    font-size: 50%;
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-container img{
+    margin: 20px;
+    width: 17% ;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+.newsletter{
+    background: darkcyan;
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.newsletter p{
+    margin: 20px;
+}
+.newsletter input,.newsletter button{
+    background: none;
+    color: white;
+    border: solid white 1px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.newsletter input{
+    width: 200px;
+    margin-right: 15px;
+}
+.newsletter button{
+    width: 80px;
+    cursor: pointer;
+}
+input::placeholder{
+    color: antiquewhite;
+}
